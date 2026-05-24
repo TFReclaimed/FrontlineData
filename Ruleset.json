@@ -18150,6 +18150,38 @@
                 "controlRegionMoveInternal": true,
                 "winRewardID": 5,
                 "lossRewardID": 4
+            },
+            "4": {
+                "validDropships": [
+                    1
+                ],
+                "controlRegionTitanSlots": [
+                    0,
+                    1,
+                    2
+                ],
+                "gameId": 4,
+                "embarkedPilotTrait": 419,
+                "pilotTitanEmbarkedTrait": 121,
+                "initialDraw": 5,
+                "mulliganDiscard": 3,
+                "mulliganTimer": 15,
+                "discardTimer": 13,
+                "endTurnTimer": 60,
+                "firstTurnDrawFirstPlayer": 0,
+                "firstTurnDrawOtherPlayer": 1,
+                "newTurnDraw": 1,
+                "newTurnCommand": 1,
+                "maxCommandAccum": 10,
+                "initialPlayerHealth": 20,
+                "firstPlayerRegionSize": 9,
+                "otherPlayerRegionSize": 9,
+                "controlRegionSize": 3,
+                "maxCardsInHand": 7,
+                "controlRegionSlotIndependent": false,
+                "controlRegionMoveInternal": true,
+                "winRewardID": 7,
+                "lossRewardID": 8
             }
         },
         "rewards": {
@@ -18202,6 +18234,26 @@
                 "supply": 900,
                 "boosters": 0,
                 "tokens": 25
+            },
+            "7": {
+                "rewardId": 7,
+                "rewardGroup": "practice_win",
+                "playerXP": 75,
+                "trophies": 0,
+                "credits": 100,
+                "supply": 50,
+                "boosters": 0,
+                "tokens": 0
+            },
+            "8": {
+                "rewardId": 8,
+                "rewardGroup": "practice_loss",
+                "playerXP": 75,
+                "trophies": 0,
+                "credits": 50,
+                "supply": 25,
+                "boosters": 0,
+                "tokens": 0
             }
         }
     },
